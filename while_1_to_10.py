@@ -20,7 +20,8 @@ if ( start_n < end_n ):
 
 elif( start_n > end_n ):
  while ( end_n <= start_n ):
-  print( end_n )
-  end_n += 1
+  print( start_n )
+  start_n -= 1
+
 elif( start_n == end_n ):
  print("Error. You entered the same numbers.\n")
